@@ -1,0 +1,95 @@
+<html>
+<head><title>Simple HTML Form Without Using Bootstrap & With using Bootstrap</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<h3> Simple HTMl Form with Bootstrap</h3>
+<div class="row"> <!--Bootstrap Class  -->
+<div class="col-sm-2">
+<label>First Name: </label>
+</div>
+<div class="col-sm-4">
+<input type="text" class="form-control" name="fname">
+</div>
+<div class="col-sm-2">
+<label>Last Name: </label>
+</div>
+<div class="col-sm-4">
+<input type="text"  class="form-control"  name="lname">
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-sm-2">
+<label>Birth Date : </label>
+</div>
+<div class="col-sm-4">
+<input type="date"  class="form-control"  name="bdate">
+</div>
+<div class="col-sm-2">
+<label>Time : </label>
+</div>
+<div class="col-sm-4">
+<input type="time"  class="form-control"  name="time">
+
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-sm-2">
+<label>Class Name : </label>
+</div>
+<div class="col-sm-4">
+<select name="classname"  class="form-control" >
+<option value=""> Select Calss Name</option>
+<option value="MCS"> MCS</option>
+<option value="MCA"> MCA</option>
+<option value="BCA">BCA</option>
+<option value="BCS"> BCS</option>
+
+</select>
+</div>
+<div class="col-sm-2">
+<label>Gender</label>
+</div>
+<div class="col-sm-4">
+Male<input type="radio"   value="gender">
+Female<input type="radio"    value="gender">
+</div>
+</div>
+<br>
+
+<div class="row">
+<div class="col-sm-2">
+<label>Subject Name: 
+</label>
+</div>
+<div class="col-sm-4">
+PHP <input type="checkbox" name="subject1" >
+HTML <input type="checkbox" name="subject2">
+CSS <input type="checkbox" name="subject3">
+C <input type="checkbox" name="subject4">
+C++ <input type="checkbox" name="subject5">
+
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-sm-4">
+</div>
+<div class="col-sm-4"><input type="submit" name="submit"  class="btn btn-md btn-danger"value="SUBMIT">
+</div>
+<div class="col-sm-4">
+</div>
+</body>
+
+</html>
